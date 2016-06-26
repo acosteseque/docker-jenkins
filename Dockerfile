@@ -7,6 +7,12 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Change to root user
 USER root
 
+# Used to set the docker group ID
+ARG DOCKER_GID=982
+
+# Create Docker Group with GID
+RUN groupadd -g ${DOCKER_GID:-497} docker
+
 # Install base packages
 RUN apt-get update -y && \
     apt-get install ruby apt-transport-https curl python-dev python-setuptools libffi-dev libssl-dev gcc make -y && \
