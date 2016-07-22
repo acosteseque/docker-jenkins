@@ -1,3 +1,8 @@
+ansible:latest
+bouncycastle-api:latest
+branch-api:latest
+jclouds-jenkins:latest
+ssh-agent:latest
 icon-shim:latest
 git:latest
 github:latest
@@ -19,6 +24,7 @@ pipeline-build-step:latest
 pipeline-input-step:latest
 pipeline-stage-view:latest
 pipeline-stage-step:latest
+pipeline-utility-steps:latest
 workflow-aggregator:latest
 workflow-api:latest
 workflow-basic-steps:latest
