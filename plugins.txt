@@ -60,3 +60,5 @@ amazon-ecs:latest
 aws-credentials:latest
 aws-java-sdk:latest
 jackson2-api:latest
+azure-slave-plugin:latest
+windows-azure-storage:latest
